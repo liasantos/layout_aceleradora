@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Layout - ex01</title>
+        <style>
+            * {
+                margin: 0;
+            }
+            h1 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 20px;
+                font-weight: lighter;
+                padding: 15px;
+                
+            }
+            body {
+                margin: 0 auto;
+                width: 750px;
+            }
+            .header {
+                background-color: blue;
+                height: 100px;
+                width: 750px;
+                color: white;                
+            }
+            .left-menu {
+                background-color: orange;
+                height: 150px;
+                width: 25%;
+                float: left;
+                color: white;
+            }
+            .conteudo {
+                background-color: powderblue;
+                height: 450px;
+                width: 50%;
+                float: left;
+                color: white;
+            }
+            .right-menu {
+                background-color: green;
+                height: 150px;
+                width: 25%;
+                float: left;
+                color: white;
+            }
+        </style>
+        <!--Como o código é pequeno, resolvi fazer o CSS interno e um pouco inline também-->
+
+    </head>
+
+    <body>
+
+        <div class="header">
+            <header>
+                <h1 style="text-transform: uppercase;"> Header </h1>
+            </header>
+        </div>
+        <div class="left-menu">
+            <h1><span style="text-transform: uppercase;">Menu</span><br>Esquerdo</h1>
+        </div>
+        <div class="conteudo">
+            <h1 style="text-transform: uppercase;text-align:center;">Conteúdo</h1>
+        </div>
+        <div class="right-menu">
+            <h1><span style="text-transform: uppercase;">Menu</span><br>Direito</h1>
+        </div>
+    </body>
+
+</html>

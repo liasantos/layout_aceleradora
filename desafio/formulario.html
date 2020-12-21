@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Boletim</title>
+        <link rel="stylesheet" href="css/desafio.css">
+
+    </head>
+
+    <body>
+        <p>Insira os dados do aluno no formulário abaixo.</p>
+        <!--Tentativa de formulário POST para receber os dados dos alunos-->
+        <form method="POST" enctype="text/plain" action="boletim.html" id="alunoform">
+            <fieldset>
+                <div class="inputfield">
+                    Nome:<input name="nome" type="text" minlength="3" placeholder="Insira o nome do aluno" required>
+                </div>                        
+                <div class="inputfield">
+                    Nota 1º Semestre:<input name="nota1sem" type="number" step="any"; placeholder="Insira a nota do 1º semestre" required>
+                </div>                        
+                <div class="inputfield">
+                    Nota 2º Semestre:<input name="nota2sem" type="number" step="any"; placeholder="Insira a nota do 1º semestre" required>
+                </div>                    
+                <div class="inputfield">
+                    Frequência:<input name="idade" type="number" unit="%" step='0.01' min="0.00" max="100.00" placeholder='0.00' required>
+                </div>                    
+                <button type="submit"; form="alunoform"; value="submit" id="button";>Enviar</button>                    
+            </fieldset>                               
+        </form> <!--Ainda não aprendi a fazer a parte lógica, recém comecei a estudar js e não consegui implementar aqui. Sei que um dos 
+            caminhos seria enviar os valores do formulário e utilizar as condicionais if e else para determinar se o aluno está aprovado 
+            (verdadeiro) ou reprovado (falso), para depois enviar as informações para a tabela e estilizá-la conforme os resultados. 
+            Só não consegui desenvolver...-->
+    </body>
+</html>

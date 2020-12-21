@@ -1,0 +1,97 @@
+/*Reset*/
+* {
+    margin: 0;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal; 
+}
+/*Centraliza e define o tamanho do body*/
+body {
+    margin: 0 auto;
+    width: 750px; 
+}
+/*Cabeçalho*/
+header {
+    background-color: rgb(60, 60, 209);
+    height: 100px;
+    width: 750px;
+}
+/*Menu principal*/
+.main-menu {
+    background-color: brown;
+    height: 50px;
+    width: 750px;
+}
+/*Coluna de navegação*/
+.col-nav {
+    background-color: lightgray;
+    height: 450px;
+    width: 200px;
+    border-right: brown dashed 2px; /*linha tracejada*/
+}
+/*Coluna Principal*/
+.col-main {
+    background-color: lightgrey;
+    height: 450px;
+    width: 350px;
+}
+/*Coluna de apoio*/
+.col-sup {
+    background-color: lightgrey;
+    height: 450px;
+    width: 200px;
+    border-left: brown dashed 2px ; 
+}
+/*Rodapé*/
+footer {
+    background-color: rgb(60, 60, 209);
+    height: 100px;
+    width: 750px;
+    border-top: brown solid 3px; /*linha reta*/
+}
+/*Cria um contêiner flex e alinha os elementos do main em uma linha*/
+main {
+    display: flex;
+}
+/*Topo*/
+h1 {
+    color:white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Gosto de usar a família de fontes, para caso dê alguma incompatibilidade no navegador*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    text-transform: uppercase;
+}
+/*Menu Principal*/
+h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 12.5px;
+    text-align: left;
+    padding: 12.5px;
+    font-size: 22px;    
+}
+/*Main*/
+h3 {
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 20px;
+    text-transform: uppercase; /*Maiúsculas*/
+}
+/*Rodapé*/
+h4 {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 40px;
+}
+
+/*Deixei o mais parecido que consegui*/

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Layout - ex04</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1> Topo </h1>
+        </header>
+        <div class="main-menu">
+            <nav>
+                <h2>Menu Principal </h2>
+            </nav>
+        </div>
+        <main>
+            <div class="col-nav">
+                <nav>
+                    <h3>Coluna de navegação</h3>
+                    <ul>
+                        <li><a href=”#”>Link1</a></li>
+                        <li><a href=”#”>Link2</a></li>
+                        <li><a href=”#”>Link3</a></li>
+                        <li><a href=”#”>Link4</a></li>
+                        <li><a href=”#”>Link5</a></li>
+                    </ul>                    
+                </nav>
+            </div>
+            <div class="col-main">
+                <h3>Coluna principal</h3>
+                <form> 
+                    <fieldset>                    
+                        <div class="inputfield">
+                            Nome:<input name="nome" type="text" minlength="3" placeholder="Insira seu nome completo" required>
+                        </div>                        
+                        <div class="inputfield">
+                            Email:<input name="mail" type="email" minlength="7" placeholder="Insira seu endereço de email" required>
+                        </div>                        
+                        <div class="inputfield">
+                            Telefone:<input name="contato" type="tel" placeholder="Insira seu telefone">
+                        </div>                    
+                        <div class="inputfield">
+                            Mensagem:<textarea  name="mensagem" placeholder="Insira sua mensagem" required></textarea>
+                        </div>                        
+                        <input type="checkbox"> Concordo com os <a id="termos" href="#" target="blank">Termos e Condições</a>.                                        
+                        <button>Enviar</button>                    
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-sup">
+                <h3>Coluna de apoio</h3>
+            </div>
+        </main>
+
+        <footer>
+            <h4>...Rodapé...</h4>
+        </footer>
+
+    </body>
+
+</html>
